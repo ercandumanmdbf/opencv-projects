@@ -28,6 +28,21 @@ while True:
                 if id==0:
                     cv2.circle(img,(cx,cy),15,(255,0,0),cv2.FILLED)
 
+                if id==4:
+                    cv2.circle(img,(cx,cy),15,(255,0,0),cv2.FILLED)
+
+                if id==8:
+                    cv2.circle(img,(cx,cy),15,(255,0,0),cv2.FILLED)
+
+                if id==12:
+                    cv2.circle(img,(cx,cy),15,(255,0,0),cv2.FILLED)
+
+                if id==16:
+                    cv2.circle(img,(cx,cy),15,(255,0,0),cv2.FILLED)
+
+                if id==20:
+                    cv2.circle(img,(cx,cy),15,(255,0,0),cv2.FILLED)
+
     cv2.imshow("image",img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
